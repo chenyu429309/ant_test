@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:helloResponse xmlns:ns2="http://servcie.pega.com">
+			<ns2:result>SUCCESS</ns2:result>
+		</ns2:helloResponse>
+	</soap:Body>
+</soap:Envelope>

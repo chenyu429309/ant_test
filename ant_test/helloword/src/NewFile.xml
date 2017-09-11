@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<MLB_UPH_REPORTResponse xmlns="http://tempuri.org/">
+			<MLB_UPH_REPORTResult>
+				<xs:schema id="RETULT" xmlns=""
+					xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+					<xs:element name="RETULT" msdata:IsDataSet="true"
+						msdata:UseCurrentLocale="true">
+						<xs:complexType>
+							<xs:choice minOccurs="0" maxOccurs="unbounded">
+								<xs:element name="Table">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="DAYTZ" type="xs:string"
+												minOccurs="0" />
+											<xs:element name="PROCESS" type="xs:string"
+												minOccurs="0" />
+											<xs:element name="LINE" type="xs:string"
+												minOccurs="0" />
+											<xs:element name="QTY" type="xs:decimal"
+												minOccurs="0" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:choice>
+						</xs:complexType>
+					</xs:element>
+				</xs:schema>
+				<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+					xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+					<RETULT xmlns="">
+						<Table diffgr:id="Table1" msdata:rowOrder="0">
+							<DAYTZ>2016060108</DAYTZ>
+							<PROCESS>BLT</PROCESS>
+							<LINE>AB10</LINE>
+							<QTY>56</QTY>
+						</Table>
+						<Table diffgr:id="Table2" msdata:rowOrder="1">
+							<DAYTZ>2016060108</DAYTZ>
+							<PROCESS>BLT</PROCESS>
+							<LINE>AB11</LINE>
+							<QTY>2</QTY>
+						</Table>
+						<Table diffgr:id="Table3" msdata:rowOrder="2">
+							<DAYTZ>2016060108</DAYTZ>
+							<PROCESS>LTS</PROCESS>
+							<LINE>AL10</LINE>
+							<QTY>12</QTY>
+						</Table>
+						<Table diffgr:id="Table4" msdata:rowOrder="3">
+							<DAYTZ>2016060108</DAYTZ>
+							<PROCESS>SMT_T</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>56</QTY>
+						</Table>
+						<Table diffgr:id="Table5" msdata:rowOrder="4">
+							<DAYTZ>2016060109</DAYTZ>
+							<PROCESS>BLT</PROCESS>
+							<LINE>AB10</LINE>
+							<QTY>8</QTY>
+						</Table>
+						<Table diffgr:id="Table6" msdata:rowOrder="5">
+							<DAYTZ>2016060109</DAYTZ>
+							<PROCESS>LTS</PROCESS>
+							<LINE>AL10</LINE>
+							<QTY>80</QTY>
+						</Table>
+						<Table diffgr:id="Table7" msdata:rowOrder="6">
+							<DAYTZ>2016060109</DAYTZ>
+							<PROCESS>SMT_B</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>48</QTY>
+						</Table>
+						<Table diffgr:id="Table8" msdata:rowOrder="7">
+							<DAYTZ>2016060109</DAYTZ>
+							<PROCESS>SMT_T</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>23</QTY>
+						</Table>
+						<Table diffgr:id="Table9" msdata:rowOrder="8">
+							<DAYTZ>2016060110</DAYTZ>
+							<PROCESS>LTS</PROCESS>
+							<LINE>AL10</LINE>
+							<QTY>80</QTY>
+						</Table>
+						<Table diffgr:id="Table10" msdata:rowOrder="9">
+							<DAYTZ>2016060110</DAYTZ>
+							<PROCESS>SMT_B</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>92</QTY>
+						</Table>
+						<Table diffgr:id="Table11" msdata:rowOrder="10">
+							<DAYTZ>2016060110</DAYTZ>
+							<PROCESS>SMT_T</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>77</QTY>
+						</Table>
+						<Table diffgr:id="Table12" msdata:rowOrder="11">
+							<DAYTZ>2016060111</DAYTZ>
+							<PROCESS>BLT</PROCESS>
+							<LINE>AB10</LINE>
+							<QTY>87</QTY>
+						</Table>
+						<Table diffgr:id="Table13" msdata:rowOrder="12">
+							<DAYTZ>2016060111</DAYTZ>
+							<PROCESS>COATING</PROCESS>
+							<LINE>AA07</LINE>
+							<QTY>25</QTY>
+						</Table>
+						<Table diffgr:id="Table14" msdata:rowOrder="13">
+							<DAYTZ>2016060111</DAYTZ>
+							<PROCESS>LTS</PROCESS>
+							<LINE>AL10</LINE>
+							<QTY>64</QTY>
+						</Table>
+						<Table diffgr:id="Table15" msdata:rowOrder="14">
+							<DAYTZ>2016060111</DAYTZ>
+							<PROCESS>SMT_B</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>139</QTY>
+						</Table>
+						<Table diffgr:id="Table16" msdata:rowOrder="15">
+							<DAYTZ>2016060111</DAYTZ>
+							<PROCESS>SMT_T</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>92</QTY>
+						</Table>
+						<Table diffgr:id="Table17" msdata:rowOrder="16">
+							<DAYTZ>2016060112</DAYTZ>
+							<PROCESS>COATING</PROCESS>
+							<LINE>AA07</LINE>
+							<QTY>7</QTY>
+						</Table>
+						<Table diffgr:id="Table18" msdata:rowOrder="17">
+							<DAYTZ>2016060112</DAYTZ>
+							<PROCESS>SMT_B</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>8</QTY>
+						</Table>
+						<Table diffgr:id="Table19" msdata:rowOrder="18">
+							<DAYTZ>2016060112</DAYTZ>
+							<PROCESS>SMT_T</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>8</QTY>
+						</Table>
+						<Table diffgr:id="Table20" msdata:rowOrder="19">
+							<DAYTZ>2016060113</DAYTZ>
+							<PROCESS>COATING</PROCESS>
+							<LINE>AA07</LINE>
+							<QTY>18</QTY>
+						</Table>
+						<Table diffgr:id="Table21" msdata:rowOrder="20">
+							<DAYTZ>2016060113</DAYTZ>
+							<PROCESS>LTS</PROCESS>
+							<LINE>AL10</LINE>
+							<QTY>32</QTY>
+						</Table>
+						<Table diffgr:id="Table22" msdata:rowOrder="21">
+							<DAYTZ>2016060113</DAYTZ>
+							<PROCESS>SMT_T</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>28</QTY>
+						</Table>
+						<Table diffgr:id="Table23" msdata:rowOrder="22">
+							<DAYTZ>2016060114</DAYTZ>
+							<PROCESS>BLT</PROCESS>
+							<LINE>AB10</LINE>
+							<QTY>75</QTY>
+						</Table>
+						<Table diffgr:id="Table24" msdata:rowOrder="23">
+							<DAYTZ>2016060114</DAYTZ>
+							<PROCESS>COATING</PROCESS>
+							<LINE>AA07</LINE>
+							<QTY>51</QTY>
+						</Table>
+						<Table diffgr:id="Table25" msdata:rowOrder="24">
+							<DAYTZ>2016060114</DAYTZ>
+							<PROCESS>LTS</PROCESS>
+							<LINE>AL10</LINE>
+							<QTY>32</QTY>
+						</Table>
+						<Table diffgr:id="Table26" msdata:rowOrder="25">
+							<DAYTZ>2016060114</DAYTZ>
+							<PROCESS>SMT_B</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>4</QTY>
+						</Table>
+						<Table diffgr:id="Table27" msdata:rowOrder="26">
+							<DAYTZ>2016060114</DAYTZ>
+							<PROCESS>SMT_T</PROCESS>
+							<LINE>AS10</LINE>
+							<QTY>152</QTY>
+						</Table>
+					</RETULT>
+				</diffgr:diffgram>
+			</MLB_UPH_REPORTResult>
+		</MLB_UPH_REPORTResponse>
+	</soap:Body>
+</soap:Envelope>

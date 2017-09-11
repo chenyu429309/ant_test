@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+  <service>
+    <serviceClass>com.pega.sms.service.Service1Impl</serviceClass>
+    <wsdlURL>http://psh-ap-16/Mas_WebService/Service1.asmx?WSDL</wsdlURL>
+    <serviceFactory>org.codehaus.xfire.jaxb2.JaxbServiceFactory</serviceFactory>
+  </service>
+  <service />
+  <service />
+</beans>
+

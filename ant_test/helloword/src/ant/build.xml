@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="genfiles" basedir=".">
+	<property name="lib" value="../../WebContent/WEB-INF/lib"/>
+	
+	<path id="myclasspath">
+		
+		<fileset dir="${lib}">
+			
+			<include name="*.jar"/>
+			
+		</fileset>
+		
+		<pathelement location="${genfiles}"/>
+		
+	</path>
+
+	<property name="code_path" value="src"/>
+	
+	<property name="wsdl_path" value="http://psh-ap-16/Mas_WebService/Service1.asmx?WSDL"/>
+
+	<property name="code_package" value="com.pega.sms.service"/>
+	
+	<target name="genfiles" description="Generate the files">
+		<taskdef name="wsgen" classname="org.codehaus.xfire.gen.WsGenTask" classpathref="myclasspath"/>
+		<wsgen outputDirectory="${code_path}" wsdl="${wsdl_path}" package="${code_package}" overwrite="true"/>
+	</target>
+</project>

@@ -1,0 +1,13 @@
+<!-- START SNIPPET: services -->
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+  <service>
+    <name>HelloWorldService</name>
+    <!-- <namespace>http://xfire.codehaus.org/BookService</namespace> -->
+    <serviceClass>com.wsdl.test.HelloWorld</serviceClass>
+    <implementationClass>com.wsdl.test.impl.HelloWorldImpl</implementationClass>
+    <!-- <inHandlers>
+     <handler handlerClass="org.codehaus.xfire.demo.handlers.CheckVersionHandler" />
+    </inHandlers> -->
+  </service>
+</beans>
+<!-- END SNIPPET: services -->
